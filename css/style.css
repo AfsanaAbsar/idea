@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+image{
+    width: 100%;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.logo p{
+
+font-size: 50px;
+
+font-weight: 700;
+
+color: #f15b22;
+}
+
+nav ul{
+
+list-style: none;
+
+display: flex;
+}
+nav li{
+    
+padding-left: 10px;
+    
+
+    
+color: #f15b22;
+    
+font-weight: 00;
+}
+.banner{
+    background-image: url(../images/banner/banner2.png);
+    background-repeat: no-repeat;
+    max-width: 1600px;
+    height: 800px;
+   
+   
+    
+}
+.banner-description{
+    display: flex;
+    align-items: center;
+   justify-content: flex-end;
+   padding-right: 200px;
+   padding-top: 200px;
+   
+}
+ h1{
+    font-weight: 700 ;
+    font-size: 65px;
+    line-height: 70px;
+
+}
+p{
+    padding: 30px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.banner-description div{
+    width: 50%;
+    text-align: right;
+   
+}
+
+.banner button{
+    background-color: #F15B22;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.container{
+
+max-width: 1000px;
+
+margin: auto;
+}
+.flex{
+
+display: flex;
+
+align-items: center;
+
+justify-content: space-between;
+}
+.about .flex div{
+   padding: 30px;
+}
+
+.about-content li{
+ padding-bottom: 10px;
+}
+h2{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 45px;
+}
+
+.about ul{
+    list-style: none;
+}
+.my-plan{
+    padding: 50px 0;
+}
+
+.my-plan h2{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.plan-card img{
+    padding-bottom: 10px;
+}
+.plan-card{
+    text-align: center;
+}
+.call-now{
+    padding-bottom: 50px;
+}
+
+.call-now .container{
+   background-image: url(../images/watch.png), url(../images/gradient2.png);
+   background-repeat: no-repeat , no-repeat;
+ background-blend-mode: multiply;
+   border-radius: 10px;
+}
+.call-now-content{
+    width: 50%;
+    padding: 50px;
+    color: white;
+
+}
+.call-now-content button{
+    color: #F15B22;
+    background-color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+i{
+    color: green;
+    padding-right: 5px;
+}
+.icons{
+    width: 30%;
+}
+.icon{
+width: 50px;
+padding-right: 10px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+}
+
+.footer-content{
+    width: 50%;
+}
+footer p{
+    font-size: 16px;
+    line-height: 26px;
+    padding: 10px 0;
+}
+footer input{
+    margin: 20px 0;
+    padding: 10px;
+    display: block;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+}
+footer button{
+    color: #F15B22;
+    background-color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
